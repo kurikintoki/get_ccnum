@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# $1 has to be a csv text file which includes cdinfo_serial,subscriber_id,number(encrypted cc number)
 while read line
 do
     card=$line
